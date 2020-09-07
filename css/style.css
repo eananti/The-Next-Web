@@ -152,3 +152,50 @@ table {
 * {
   box-sizing: border-box;
 }
+
+img {
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right{
+  float: right;
+}
+
+/* header */
+
+nav {
+  position: fixed;
+}
+
+.mobi-nav img {
+  width: 85px;
+  color: #ffffff;
+  /* used negative margin */
+  margin-bottom: -4px; 
+}
+
+.nav-btm {
+  clear: both;
+  height: 50px;
+  padding-top: 18px;
+  padding-left: 10px;
+  background-color: #ffdf00;
+}
+
+.nav-btm a {
+  display: block;
+  font-size: 0.79em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
