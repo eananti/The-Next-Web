@@ -439,3 +439,77 @@ img.l-funds-image {
 .latest-art-bg-8 {
   background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
 }
+
+/* Footer */
+
+footer {
+  margin-top: 50px;
+}
+
+footer i {
+  color: white;
+}
+
+.foot-lnks{
+  color: rgb(231, 231, 231);
+  justify-content: center;
+}
+ 
+.foot-lnks li {
+  padding: 3px 5px;
+  font-size: 0.9em;
+}
+
+.foot-btn button {
+  border-radius: 100%;
+  border-color: black;
+  background-color: rgb(26, 20, 20);
+  margin: 5px 4px;
+  font-size: 1.2em;
+  height: 40px;
+  width: 40px;
+}
+
+.foot-lnks ul {
+  padding-top: 20px;
+}
+
+.foot-lnks ul,
+.foot-btn {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.top-foot {
+  background-color: rgb(43, 42, 42);
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+footer .btm-footer {
+  flex-direction: column;
+  padding: 25px 35px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+footer img:first-child {
+  width: 40px;
+}
+
+footer img:last-child {
+  width: 59px;
+}
+
+.fixed-icon {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: blue;
+  padding: 5px;
+}
