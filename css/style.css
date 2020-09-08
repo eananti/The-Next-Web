@@ -97,6 +97,11 @@ i.fa-bars {
   text-overflow: ellipsis;
 }
 
+.light-grey-txt,
+.l-funds-add-info a {
+  color: rgb(126, 126, 126);
+}
+
 /* main */
 
 .intro-art {
@@ -226,6 +231,8 @@ i.fa-bars {
 .l-funds-details h4 {
   background-color: red;
   color: #fff;
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
 .l-funds-details h4,
@@ -241,12 +248,12 @@ i.fa-bars {
 .l-funds-details p {
   line-height: 1.1em;
   font-size: 1.2em;
-  font-weight: bold;
 }
 
 p.venture-text {
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-weight: lighter;
+  padding-top: 2px;
 }
 
 img.l-funds-image {
@@ -262,6 +269,7 @@ img.l-funds-image {
 .l-funds-add-info {
   background-color: rgba(251, 146, 146, 0.1);
   padding-top: 13px;
+  font-size: 0.75em;
 }
 
 .l-funds-add-info p {
