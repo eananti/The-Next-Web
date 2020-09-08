@@ -57,6 +57,10 @@ a {
   position: absolute;
 }
 
+.red-txt {
+  color: red;
+}
+
 /* header */
 
 header {
@@ -74,10 +78,6 @@ header {
 .mobi-nav .nav-right-ii {
   border-left: 1px solid lightgrey;
   padding: 16px;
-}
-
-i.fa-bars {
-  color: red;
 }
 
 .nav-btm {
@@ -121,7 +121,8 @@ i.fa-bars {
   margin-bottom: 10px;
 }
 
-.intro-art h1 {
+.intro-art h1,
+.hard-fork h1 {
   padding-bottom: 5px;
   padding-top: 5px;
 }
@@ -139,21 +140,18 @@ i.fa-bars {
 }
 
 .latest-news,
-.latest-funds {
+.latest-funds,
+.hard-fork-arts {
   padding-top: 70px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
 .latest-news h2,
-.latest-funds h2 {
+.latest-funds h2,
+.hard-fork-arts h2 {
   margin-bottom: 20px;
   font-size: 1.5em;
-}
-
-.latest-news h2,
-.latest-funds .latest-funds-first {
-  color: red;
 }
 
 .latest-news article {
@@ -278,4 +276,125 @@ img.l-funds-image {
 
 .l-funds-add-info i {
   padding-right: 7px;
+}
+
+.hard-fork-arts article {
+  width: 100%;
+  height: 210px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 120px 50px 0 10px;
+  color: #fff;
+}
+
+.hard-fork {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/edm-368x276.jpg");
+}
+
+.hard-fork-1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Facebook-instagram-368x276.jpg");
+}
+
+.hard-fork-2 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Xbox-Series-S-hed-official-368x276.jpg");
+}
+
+.hard-fork-3 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-3-368x276.jpg");
+}
+
+.hard-fork-4 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/winamp-skin-museum-music-368x276.png");
+}
+
+.hard-fork-5 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/economy-money-fintech-368x276.png");
+}
+
+.hard-fork-6 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/stonksgates-368x276.jpg");
+}
+
+.hard-fork-7 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/edm-368x276.jpg");
+}
+
+.hard-fork-8 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/remote-work-finance-freelancer-gq-368x276.png");
+}
+
+.article-container {
+  margin-bottom: 15px;
+}
+
+.under-article {
+  justify-content: space-between;
+  background-color: rgba(251, 146, 146, 0.215);
+}
+
+
+.under-article-left {
+  padding: 8px 10px;
+}
+
+.under-article-left p{
+  margin-top: 5px;
+}
+
+.btm-img-sync {
+  min-width: 100px;
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 2px;
+}
+
+.hard-fork-arts-btm-img-1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric.png");
+}
+
+.hard-fork-arts-btm-img-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/twitter.png");
+}
+
+.hard-fork-arts-btm-img-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/google-pixel-photography-street.jpg ");
+}
+
+.hard-fork-arts-btm-img-4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/image-5.png");
+}
+
+.hard-fork-arts-btm-img-5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/handshake-emoji.png");
+}
+
+.hard-fork-arts-btm-img-6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/106909103_10101777330197904_2889321509499508446_o-1.jpg");
+}
+
+.hard-fork-arts-btm-img-7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today.jpg");
+}
+
+.hard-fork-arts-btm-img-8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric.png");
+}
+
+.hard-fork-arts-btm-img-9 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/stonksgates.jpg");
+}
+
+.hard-fork-arts ul {
+  margin-left: 15px;
+  font-size: 0.85em;
+}
+
+.hard-fork-arts li {
+  padding: 6px 0;
+  border-bottom: 1px solid lightgray;
+  list-style-type: disc;
+  line-height: 1.3em;
 }
