@@ -21,6 +21,14 @@ a {
   color: inherit;
 }
 
+footer {
+  margin-top: 50px;
+}
+
+footer i {
+  color: white;
+}
+
 .f-left {
   float: left;
 }
@@ -442,19 +450,11 @@ img.l-funds-image {
 
 /* Footer */
 
-footer {
-  margin-top: 50px;
-}
-
-footer i {
-  color: white;
-}
-
 .foot-lnks{
   color: rgb(231, 231, 231);
   justify-content: center;
 }
- 
+
 .foot-lnks li {
   padding: 3px 5px;
   font-size: 0.9em;
@@ -485,7 +485,6 @@ footer i {
   background-color: rgb(43, 42, 42);
   padding-top: 25px;
   padding-bottom: 25px;
-
 }
 
 footer .btm-footer {
