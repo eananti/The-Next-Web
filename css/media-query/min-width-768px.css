@@ -31,6 +31,25 @@
   padding: 10px 20px;
   color: #fff;
   justify-content: space-between;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 0.01em;
+  font-size: 0.8em;
+}
+
+.top-menu-right {
+  width: 220px;
+}
+
+.top-menu-left ul {
+  justify-content: space-around;
+}
+
+.top-menu-left ul li {
+  margin-right: 10px;
+}
+
+.top-menu-right ul {
+  justify-content: space-around;
 }
 
 .big-img img {
