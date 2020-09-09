@@ -59,9 +59,18 @@
   z-index: 999;
 }
 
-.nav-btm {
-  padding-left: 115px;
-  text-align: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.nav-large .main-menu-list-container {
+  width: 600px;
 }
+
+.main-menu-list {
+  justify-content: space-between;
+}
+
+.nav-btm {
+  padding-left: 120px;
+  text-align: left;
+}
+
+/* Main */
+
