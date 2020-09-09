@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.flex-md-wrap {
+  flex-wrap: wrap;
+}
+
 .hide-lg {
   display: none;
 }
@@ -130,4 +134,22 @@
 .latest-funds .l-funds-container {
   width: 29vw;
   margin: 9px;
+}
+
+.hard-fork-arts .article-container {
+  width: 43vw;
+  margin: 15px;
+}
+
+.latest-news article {
+  width: 29vw;
+  margin: 9px;
+}
+
+.latest-news article .img-sync {
+  height: 160px;
+}
+
+.flex-art-right h4 {
+  margin-top: 8px;
 }
