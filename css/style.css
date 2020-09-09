@@ -69,6 +69,10 @@ footer i {
   color: red;
 }
 
+.hidden {
+  display: none;
+}
+
 /* header */
 
 header {
@@ -94,7 +98,6 @@ header {
   padding-bottom: 25px;
   padding-left: 10px;
   background-color: #ffdf00;
-  text-align: center;
 }
 
 .nav-btm a {

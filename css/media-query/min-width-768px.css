@@ -1,4 +1,36 @@
-.mobi-nav img {
-  width: 200px;
-  height: auto;
+.mobi-nav {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.nav-btm {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffdf00;
+}
+
+.big-nav-top {
+  justify-content: space-between;
+  background-color: #000;
+  color: rgb(204, 204, 204);
+}
+
+.big-nav-list-con,
+.big-nav-list-btm {
+  padding: 10px;
+}
+
+.big-nav-list-con ul li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.big-nav-bottom {
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: rgb(238, 238, 238);
+  color: rgb(92, 91, 91);
 }
