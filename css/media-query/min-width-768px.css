@@ -126,3 +126,8 @@
 .art-contain .flex-art-right {
   margin: 7px 0;
 }
+
+.latest-funds .l-funds-container {
+  width: 29vw;
+  margin: 9px;
+}
