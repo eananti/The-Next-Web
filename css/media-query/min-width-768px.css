@@ -1,9 +1,12 @@
+.d-md-flex {
+  display: flex;
+}
+
 .hide-lg {
   display: none;
 }
 
 .nav-large {
-  display: flex;
   align-items: center;
 }
 
@@ -18,6 +21,7 @@
 
 .main-menu-list {
   margin-left: 20px;
+  justify-content: space-between;
 }
 
 .lg-show {
@@ -25,7 +29,6 @@
 }
 
 .top-menu {
-  display: flex;
   margin-left: 95px;
   background: #000;
   padding: 10px 20px;
@@ -63,10 +66,6 @@
   width: 600px;
 }
 
-.main-menu-list {
-  justify-content: space-between;
-}
-
 .nav-btm {
   padding-left: 120px;
   text-align: left;
@@ -86,7 +85,11 @@
 
 .intro-art .second-art,
 .intro-art .third-art {
-  height: 23vh;
+  height: 25.3vh;
+}
+
+.intro-art .second-art {
+  margin-bottom: 8px;
 }
 
 .second-column {
@@ -96,5 +99,30 @@
 .intro-art {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 10px;
+  gap: 8px;
+}
+
+.latest-news {
+  padding-top: 0;
+}
+
+.latest-news article {
+  flex-direction: column;
+}
+
+.art-main-contain {
+  flex-wrap: wrap;
+}
+
+.art-contain {
+  width: 29vw;
+  margin: 9px;
+}
+
+.art-contain .img-sync {
+  height: 120px;
+}
+
+.art-contain .flex-art-right {
+  margin: 7px 0;
 }
