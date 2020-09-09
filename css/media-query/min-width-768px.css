@@ -30,6 +30,7 @@
   background: #000;
   padding: 10px 20px;
   color: #fff;
+  justify-content: space-between;
 }
 
 .big-img img {
@@ -37,4 +38,11 @@
   width: 95px;
   height: 80px;
   z-index: 999;
+}
+
+.nav-btm {
+  padding-left: 115px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

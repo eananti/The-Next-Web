@@ -1,0 +1,21 @@
+.big-img img,
+.logo {
+  display: none;
+}
+
+.mobi-nav {
+  height: 49px;
+}
+
+.nav-btm {
+  padding-left: 25px;
+}
+
+.main-menu-list {
+  margin-left: 25px;
+}
+
+.top-menu {
+  margin-left: 0;
+  padding-left: 25px;
+}
