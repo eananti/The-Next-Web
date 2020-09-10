@@ -132,8 +132,8 @@ footer i {
   margin-bottom: 10px;
 }
 
-.intro-art h1,
-.hard-fork h1 {
+.intro-art h3,
+.hard-fork h3 {
   padding-bottom: 5px;
   padding-top: 5px;
 }
@@ -147,7 +147,7 @@ footer i {
   font-size: 0.9em;
 }
 
-.intro-art h1 {
+.intro-art h3 {
   font-family: 'Arvo', serif;
   font-size: 1.2em;
 }
@@ -181,6 +181,28 @@ footer i {
 
 .latest-news article {
   margin-top: 10px;
+}
+
+.flex-art-right h4 {
+  font-weight: bold;
+}
+
+.l-funds-details h4,
+.l-funds-details p {
+  padding-left: 75px;
+}
+
+.l-funds-details h4 {
+  background-color: red;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.l-funds-details h4,
+.l-funds-info {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .latest-news article h4 {
@@ -228,12 +250,8 @@ footer i {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/ebike-novelty-car-future-travel-transport-urban-future-electric-bike-bicycle-480x270.png");
 }
 
-.flex-art-right{
+.flex-art-right {
   margin-left: 10px;
-}
-
-.flex-art-right h4 {
-  font-weight: bold;
 }
 
 .flex-art-right p {
@@ -249,24 +267,6 @@ footer i {
 .l-funds-container {
   margin-top: 15px;
   margin-bottom: 15px;
-}
-
-.l-funds-details h4,
-.l-funds-details p {
-  padding-left: 75px;
-}
-
-.l-funds-details h4 {
-  background-color: red;
-  color: #fff;
-  font-size: 1.3em;
-  font-weight: bold;
-}
-
-.l-funds-details h4,
-.l-funds-info {
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .l-funds-info {
@@ -367,7 +367,7 @@ img.l-funds-image {
   padding: 8px 10px;
 }
 
-.under-article-left p{
+.under-article-left p {
   margin-top: 5px;
 }
 
@@ -472,7 +472,7 @@ img.l-funds-image {
 
 /* Footer */
 
-.foot-lnks{
+.foot-lnks {
   color: rgb(231, 231, 231);
   justify-content: center;
 }

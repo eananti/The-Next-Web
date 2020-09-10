@@ -49,7 +49,7 @@
   height: 34.1vh;
 }
 
-.intro-art .first-art h1 {
+.intro-art .first-art h3 {
   font-size: 3.3em;
 }
 
@@ -57,7 +57,15 @@
   padding-top: 15px;
 }
 
-.intro-art .second-column h1 {
+.latest-news article {
+  width: 22vw;
+}
+
+.latest-news article h4 {
+  font-size: 1.2em;
+}
+
+.intro-art .second-column h3 {
   font-size: 1.6em;
 }
 
@@ -70,14 +78,6 @@
 .hard-fork-arts-container,
 .latest-deals-flex-container {
   justify-content: center;
-}
-
-.latest-news article {
-  width: 22vw;
-}
-
-.latest-news article h4 {
-  font-size: 1.2em;
 }
 
 .funding-header-cont {
