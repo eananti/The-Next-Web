@@ -21,3 +21,39 @@
   margin-left: 0;
   padding-left: 25px;
 }
+
+/* main section */
+
+.intro-art {
+  margin-bottom: 60px;
+}
+
+.intro-art .first-art {
+  height: 70vh;
+  padding-top: 170px;
+  padding-left: 20px;
+}
+
+.intro-art .second-art,
+.intro-art .third-art {
+  /* padding-top: 30px;
+  padding-left: 10px; */
+  height: 34.1vh;
+}
+
+.intro-art .first-art h1 {
+  font-size: 3.3em;
+}
+
+.intro-art .art-d-txt {
+  padding-top: 15px;
+}
+
+.intro-art .second-column h1 {
+  font-size: 1.6em;
+}
+
+.intro-art .second-column article {
+  padding-left: 20px;
+  padding-top: 50px;
+}

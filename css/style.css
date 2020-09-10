@@ -127,7 +127,7 @@ footer i {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  padding: 95px 50px 0 10px;
+  padding: 80px 50px 0 10px;
   color: #fff;
   margin-bottom: 10px;
 }
@@ -136,6 +136,20 @@ footer i {
 .hard-fork h1 {
   padding-bottom: 5px;
   padding-top: 5px;
+}
+
+.intro-art .insights {
+  font-size: 1em;
+}
+
+.intro-art .art-d-txt {
+  color: rgb(207, 207, 207);
+  font-size: 0.9em;
+}
+
+.intro-art h1 {
+  font-family: 'Arvo', serif;
+  font-size: 1.2em;
 }
 
 .first-art {

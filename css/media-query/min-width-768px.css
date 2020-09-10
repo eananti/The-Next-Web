@@ -85,10 +85,18 @@
 
 .intro-art .first-art {
   height: 52vh;
+  padding-top: 130px;
+  padding-left: 10px;
+}
+
+.intro-art .first-art h1 {
+  font-size: 2.4em;
 }
 
 .intro-art .second-art,
 .intro-art .third-art {
+  padding-top: 30px;
+  padding-left: 10px;
   height: 25.3vh;
 }
 
@@ -112,6 +120,8 @@
 
 .latest-news article {
   flex-direction: column;
+  width: 29vw;
+  margin: 9px;
 }
 
 .art-main-contain {
@@ -141,15 +151,16 @@
   margin: 15px;
 }
 
-.latest-news article {
-  width: 29vw;
-  margin: 9px;
-}
-
 .latest-news article .img-sync {
   height: 160px;
 }
 
 .flex-art-right h4 {
   margin-top: 8px;
+}
+
+footer .btm-footer {
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px 0;
 }
