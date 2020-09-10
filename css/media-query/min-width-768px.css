@@ -128,11 +128,6 @@
   flex-wrap: wrap;
 }
 
-.art-contain {
-  width: 29vw;
-  margin: 9px;
-}
-
 .art-contain .img-sync {
   height: 120px;
 }

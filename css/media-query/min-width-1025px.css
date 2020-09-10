@@ -1,3 +1,11 @@
+.show-lg {
+  display: block;
+}
+
+.d-flex-lg {
+  display: flex;
+}
+
 .big-img img,
 .logo {
   display: none;
@@ -56,4 +64,52 @@
 .intro-art .second-column article {
   padding-left: 20px;
   padding-top: 50px;
+}
+
+.latest-news article {
+  width: 22vw;
+  margin: px;
+}
+
+.latest-news article h4 {
+  font-size: 1.2em;
+}
+
+.funding-header-cont {
+  justify-content: space-between
+}
+
+.header-right-1 {
+  width: 35%;
+  justify-content: space-around;
+}
+
+.latest-funds .header-right-1 p {
+  padding: 0 11px;
+  height: 30px;
+}
+
+.latest-funds .header-right-1 p a {
+  margin-top: -5px;
+}
+
+.latest-funds .header-right-1 .border-e {
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+}
+
+.hard-fork-arts .article-container {
+  width: 29vw;
+  margin: 13px;
+}
+
+.fixed-icon {
+  border-radius: 100%;
+  right: 20px;
+  bottom: 20px;
+}
+
+.fixed-icon i {
+  font-size: 1.7em;
+  padding: 9px;
 }
