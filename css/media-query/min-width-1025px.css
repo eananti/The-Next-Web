@@ -1,0 +1,117 @@
+.show-lg {
+  display: block;
+}
+
+.d-flex-lg {
+  display: flex;
+}
+
+.big-img img,
+.logo {
+  display: none;
+}
+
+.mobi-nav {
+  height: 49px;
+}
+
+.nav-btm {
+  padding-left: 25px;
+}
+
+.main-menu-list {
+  margin-left: 25px;
+}
+
+.top-menu {
+  margin-left: 0;
+  padding-left: 25px;
+}
+
+/* main section */
+
+.intro-art {
+  margin-bottom: 60px;
+}
+
+.intro-art .first-art {
+  height: 70vh;
+  padding-top: 170px;
+  padding-left: 20px;
+}
+
+.cover-logo {
+  left: 10px;
+  top: 10px;
+  width: 50%;
+}
+
+.intro-art .second-art,
+.intro-art .third-art {
+  height: 34.1vh;
+}
+
+.intro-art .first-art h3 {
+  font-size: 3.3em;
+}
+
+.intro-art .art-d-txt {
+  padding-top: 15px;
+}
+
+.latest-news article {
+  width: 22vw;
+}
+
+.latest-news article h4 {
+  font-size: 1.2em;
+}
+
+.intro-art .second-column h3 {
+  font-size: 1.6em;
+}
+
+.intro-art .second-column article {
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.art-main-contain,
+.hard-fork-arts-container,
+.latest-deals-flex-container {
+  justify-content: center;
+}
+
+.funding-header-cont {
+  justify-content: space-between;
+}
+
+.header-right-1 {
+  width: 40%;
+  justify-content: flex-end;
+}
+
+.latest-funds .header-right-1 p {
+  padding: 0 11px;
+  height: 30px;
+}
+
+.latest-funds .header-right-1 p a {
+  margin-top: -5px;
+}
+
+.hard-fork-arts .article-container {
+  width: 29vw;
+  margin: 13px;
+}
+
+.fixed-icon {
+  border-radius: 100%;
+  right: 20px;
+  bottom: 20px;
+}
+
+.fixed-icon i {
+  font-size: 1.7em;
+  padding: 9px;
+}

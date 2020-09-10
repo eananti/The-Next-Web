@@ -1,0 +1,536 @@
+/* base */
+
+/* header */
+
+/* main */
+
+/* footer */
+
+/* base */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+footer i {
+  color: white;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.z-top {
+  z-index: 5;
+}
+
+.z-bot {
+  z-index: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.red-txt {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+/* header */
+
+.header-container {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.mobi-nav img {
+  width: 95px;
+  color: #fff;
+  margin-bottom: -4px; /* used negative margin */
+}
+
+.mobi-nav .nav-right-i,
+.mobi-nav .nav-right-ii {
+  border-left: 1px solid lightgrey;
+  padding: 16px;
+}
+
+.nav-btm {
+  clear: both;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #ffdf00;
+  text-align: center;
+}
+
+.nav-btm a {
+  display: block;
+  font-size: 0.79em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.light-grey-txt,
+.l-funds-add-info a {
+  color: rgb(126, 126, 126);
+}
+
+/* main */
+
+.intro-art {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.intro-art article {
+  width: 100%;
+  height: 180px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 80px 50px 0 10px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.intro-art h3,
+.hard-fork h3 {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.intro-art .insights {
+  font-size: 1em;
+}
+
+.intro-art .art-d-txt {
+  color: rgb(207, 207, 207);
+  font-size: 0.9em;
+}
+
+.intro-art h3 {
+  font-family: 'Arvo', serif;
+  font-size: 1.2em;
+}
+
+.first-art {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg");
+}
+
+.second-art {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg");
+}
+
+.third-art {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/sales-customer-product-deal-gq-796x417.png");
+}
+
+.latest-news,
+.latest-funds,
+.hard-fork-arts {
+  padding-top: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.latest-news h2,
+.latest-funds h2,
+.hard-fork-arts h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.latest-news article {
+  margin-top: 10px;
+}
+
+.flex-art-right h4 {
+  font-weight: bold;
+}
+
+.l-funds-details h4,
+.l-funds-details p {
+  padding-left: 75px;
+}
+
+.l-funds-details h4 {
+  background-color: red;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.l-funds-details h4,
+.l-funds-info {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.latest-news article h4 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 0.9em;
+}
+
+.img-sync {
+  min-width: 80px;
+  min-height: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.flex-art-left-1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/edm-480x270.jpg");
+}
+
+.flex-art-left-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-2-516x270.jpg");
+}
+
+.flex-art-left-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/meeting-branding-viewing-gq-516x270.png");
+}
+
+.flex-art-left-4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/TNW-Gmail-e1599460314299-512x270.jpeg");
+}
+
+.flex-art-left-5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg");
+}
+
+.flex-art-left-6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-8-516x270.png");
+}
+
+.flex-art-left-7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/money-funding-investor-gq-516x270.png");
+}
+
+.flex-art-left-8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/ebike-novelty-car-future-travel-transport-urban-future-electric-bike-bicycle-480x270.png");
+}
+
+.flex-art-right {
+  margin-left: 10px;
+}
+
+.flex-art-right p {
+  font-weight: 100;
+  margin-top: 9px;
+}
+
+.latest-funds p {
+  font-size: 1.1em;
+  line-height: 1.8em;
+}
+
+.l-funds-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.l-funds-info {
+  background-color: rgba(251, 146, 146, 0.315);
+}
+
+.l-funds-details p {
+  line-height: 1.1em;
+  font-size: 1.2em;
+}
+
+p.venture-text {
+  font-size: 0.7em;
+  font-weight: lighter;
+  padding-top: 2px;
+}
+
+img.l-funds-image {
+  width: 50px;
+  height: 50px;
+}
+
+.l-funds-image {
+  top: 10px;
+  left: 10px;
+}
+
+.l-funds-add-info {
+  background-color: rgba(251, 146, 146, 0.1);
+  padding-top: 13px;
+  font-size: 0.75em;
+}
+
+.l-funds-add-info p {
+  padding-left: 15px;
+}
+
+.l-funds-add-info i {
+  padding-right: 7px;
+}
+
+.hard-fork-arts article {
+  width: 100%;
+  height: 210px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 120px 50px 0 10px;
+  color: #fff;
+}
+
+.hard-fork {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/edm-368x276.jpg");
+}
+
+.hard-fork-1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Facebook-instagram-368x276.jpg");
+}
+
+.hard-fork-2 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Xbox-Series-S-hed-official-368x276.jpg");
+}
+
+.hard-fork-3 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-3-368x276.jpg");
+}
+
+.hard-fork-4 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/winamp-skin-museum-music-368x276.png");
+}
+
+.hard-fork-5 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/economy-money-fintech-368x276.png");
+}
+
+.hard-fork-6 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/stonksgates-368x276.jpg");
+}
+
+.hard-fork-7 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/edm-368x276.jpg");
+}
+
+.hard-fork-8 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/remote-work-finance-freelancer-gq-368x276.png");
+}
+
+.article-container {
+  margin-bottom: 15px;
+}
+
+.under-article {
+  justify-content: space-between;
+  background-color: rgba(251, 146, 146, 0.215);
+}
+
+.under-article-left {
+  padding: 8px 10px;
+}
+
+.under-article-left p {
+  margin-top: 5px;
+}
+
+.btm-img-sync {
+  min-width: 100px;
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 2px;
+}
+
+.hard-fork-arts-btm-img-1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric.png");
+}
+
+.hard-fork-arts-btm-img-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/twitter.png");
+}
+
+.hard-fork-arts-btm-img-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/google-pixel-photography-street.jpg ");
+}
+
+.hard-fork-arts-btm-img-4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/image-5.png");
+}
+
+.hard-fork-arts-btm-img-5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/handshake-emoji.png");
+}
+
+.hard-fork-arts-btm-img-6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/106909103_10101777330197904_2889321509499508446_o-1.jpg");
+}
+
+.hard-fork-arts-btm-img-7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today.jpg");
+}
+
+.hard-fork-arts-btm-img-8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric.png");
+}
+
+.hard-fork-arts-btm-img-9 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/stonksgates.jpg");
+}
+
+.hard-fork-arts ul {
+  margin-left: 15px;
+  font-size: 0.85em;
+}
+
+.hard-fork-arts li {
+  padding: 6px 0;
+  border-bottom: 1px solid lightgray;
+  list-style-type: disc;
+  line-height: 1.3em;
+}
+
+.flex-art-right span {
+  text-decoration: line-through;
+  font-size: 0.9em;
+}
+
+.latest-deal-info {
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.latest-art-bg-1 {
+  background-image: url("https://cdnp0.stackassets.com/a875072fa31f35279ce85438b376249c54eca996/store/8534f1826bec31d741297d74ee8a30edc0f492f8f74cd08aa4ed0103d42a/sale_14523_primary_image.jpg");
+}
+
+.latest-art-bg-2 {
+  background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
+}
+
+.latest-art-bg-3 {
+  background-image: url("https://cdnp0.stackassets.com/7963f2e18379b178b6f028289b23c1a201fa5d01/store/4dd4ed1c0124f4b5a08261e321170102fd10c72d9caabd5286902ddf6625/sale_36919_primary_image.jpg");
+}
+
+.latest-art-bg-4 {
+  background-image: url("https://cdnp3.stackassets.com/600275c367415b9343a9b4812472fa05f7db59a8/store/dd972578f03549a52ceaac3644e38a3ee41cc83aef912816935d031e21d2/sale_14198_primary_image.jpg");
+}
+
+.latest-art-bg-5 {
+  background-image: url("https://cdnp0.stackassets.com/825637132390d0153f93083ff14920c7cab3f6a8/store/0b7aed89b153b14123f3957f71bdc6f9cfa6a80d601430accf84b8fe2f41/sale_38865_primary_image.jpg");
+}
+
+.latest-art-bg-6 {
+  background-image: url("https://cdnp0.stackassets.com/5cb5497e340bdf203caad36842570c00d492443c/store/4cf3c3c26932a65b8b43b7e6e2d7c1609800afde93a16ace92d0c4ac102d/sale_37002_primary_image.jpg");
+}
+
+.latest-art-bg-7 {
+  background-image: url("https://cdnp3.stackassets.com/0394dc9887f24aadf6f670c9bb890ce6702e21d1/store/2b7ac1a800d272cd034065ecfe3be55cc6cffbec348d4e0df3c54cf589b2/product_27695_product_shots1.jpg");
+}
+
+.latest-art-bg-8 {
+  background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
+}
+
+/* Footer */
+
+.foot-lnks {
+  color: rgb(231, 231, 231);
+  justify-content: center;
+}
+
+.foot-lnks li {
+  padding: 3px 5px;
+  font-size: 0.9em;
+}
+
+.foot-btn button {
+  border-radius: 100%;
+  border-color: black;
+  background-color: rgb(26, 20, 20);
+  margin: 5px 4px;
+  font-size: 1.2em;
+  height: 40px;
+  width: 40px;
+}
+
+.foot-lnks ul {
+  padding-top: 20px;
+}
+
+.foot-lnks ul,
+.foot-btn {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.top-foot {
+  background-color: rgb(43, 42, 42);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer .btm-footer {
+  flex-direction: column;
+  padding: 25px 35px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+footer img:first-child {
+  width: 40px;
+}
+
+footer img:last-child {
+  width: 59px;
+}
+
+.fixed-icon {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: blue;
+  padding: 5px;
+}
