@@ -17,8 +17,6 @@
 
 .nav-btm {
   padding-left: 25px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .main-menu-list {
@@ -42,10 +40,14 @@
   padding-left: 20px;
 }
 
+.cover-logo {
+  left: 10px;
+  top: 10px;
+  width: 50%;
+}
+
 .intro-art .second-art,
 .intro-art .third-art {
-  /* padding-top: 30px;
-  padding-left: 10px; */
   height: 34.1vh;
 }
 
@@ -96,11 +98,6 @@
 
 .latest-funds .header-right-1 p a {
   margin-top: -5px;
-}
-
-.latest-funds .header-right-1 .border-e {
-  border-left: 1px solid red;
-  border-right: 1px solid red;
 }
 
 .hard-fork-arts .article-container {

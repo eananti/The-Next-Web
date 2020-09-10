@@ -74,6 +74,8 @@
 .nav-btm {
   padding-left: 120px;
   text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Main */
@@ -123,6 +125,22 @@
   flex-direction: column;
   width: 29vw;
   margin: 9px;
+}
+
+.header-right-1 {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.latest-funds .header-right-1 p {
+  padding: 0 11px;
+  height: 30px;
+}
+
+.latest-funds .header-right-1 .border-e {
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  margin-bottom: 20px;
 }
 
 .latest-deal-md {
