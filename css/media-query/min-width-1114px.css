@@ -1,0 +1,15 @@
+.intro-art .first-art {
+  height: 70vh;
+  padding-top: 280px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.intro-art .second-art,
+.intro-art .third-art {
+  height: 34.4vh;
+}
+
+.intro-art .second-column article {
+  padding-top: 105px;
+}

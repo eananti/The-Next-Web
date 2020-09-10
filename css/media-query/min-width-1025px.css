@@ -66,9 +66,14 @@
   padding-top: 50px;
 }
 
+.art-main-contain,
+.hard-fork-arts-container,
+.latest-deals-flex-container {
+  justify-content: center;
+}
+
 .latest-news article {
   width: 22vw;
-  margin: px;
 }
 
 .latest-news article h4 {
@@ -76,12 +81,12 @@
 }
 
 .funding-header-cont {
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .header-right-1 {
-  width: 35%;
-  justify-content: space-around;
+  width: 40%;
+  justify-content: flex-end;
 }
 
 .latest-funds .header-right-1 p {
